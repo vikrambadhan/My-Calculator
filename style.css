@@ -11,6 +11,11 @@
     --red: #c14444;
 }
 
+body {
+    background: linear-gradient( 45deg, #e8dc77, #273689);
+    height: 100vh;
+}
+
 #calculator {
     width: 45%;
     height: 80%;
@@ -22,6 +27,7 @@
     border: 2px solid var(--light-grey);
     border-radius: var(--border-radius);
     padding: 10px;
+    opacity: 0.7;
 }
 
 #calculator h1 {
